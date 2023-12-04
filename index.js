@@ -2,7 +2,7 @@
 
     "capstone": {
 
-        "liveLink": "<github page link>",
+        "liveLink": "https://adryanbabaran.github.io/webportfolio/",
 
         "name": "Fiona Adrianne Mel Red Babaran",
 
