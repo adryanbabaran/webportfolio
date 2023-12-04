@@ -1,0 +1,137 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile Responsive Font Sizes */
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .section-title {
+    font-size: 2rem;
+	}
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 788px) {
+    body {
+        font-size: 18px;
+    }
+    .section-title {
+    font-size: 4rem;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 20px;
+    }
+    .section-title {
+    font-size: 5rem;
+	}
+}
+/*End of mobile responsive font-size*/
+
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+/*    color: RGB(235, 235, 235);*/
+	color: RGB(27, 59, 70);
+}
+
+/* Main page section settings */
+#cover {
+    font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    color: RGB(235, 235, 235);
+    letter-spacing: 2rem;
+    background: #827298;
+/*	background-size: cover;
+	background-position: center;*/
+}
+
+#coverdesc{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 4rem;
+	letter-spacing: 1rem;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: linear-gradient(to bottom, #827298, #babed0);
+}
+
+#landing, #projects, #tools, #contact, #footer {
+	background: #babed0;
+}
+/* Main page section settings */
+
+
+.section-title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+/*    margin-top: 2rem;*/
+}
+
+
+#back-to-top, #back-to-top2 {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+
+#intro {
+	text-indent: 20px;
+}
+
+#about {
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #e2c0b4, #babed0);
+  text-align: center;
+  text-indent: 20px;
+}
+
+#drive {
+	border-radius: 20px;
+	text-align: justify;
+}
+
+.bg1 {
+	background: linear-gradient(to bottom, #617bc2, #babed0);
+/*	background-color: #617bc2;*/
+}
+.bg2 {
+	background: linear-gradient(to bottom, #5b7bc4, #babed0);
+/*	background-color: #5b7bc4;*/
+}
+.bg3 {
+	background: linear-gradient(to bottom, #557bc7, #babed0);
+/*	background-color: #557bc7;*/
+}
+
+
+
+
+#landing img {
+	width: auto;
+	height: 100%;
+	border-radius: 50%;
+}
+
+#projects .carousel-item img {
+	object-fit: contain;
+	max-height: 400px;
+}
+
+#tools .carousel-item img {
+	object-fit: contain;
+	height: 120px;
+}
